@@ -1,20 +1,20 @@
-from tkinter import *
+#from instructions import MedicalSpecialist, Patient
 
-root = Tk()
 
-# Create a lable widget and set its position on the screen
-myLabel1 = Label(root, text="Hello, Medical User!")
-myLabel2 = Label(root, text="Hello, Welcome to the app!")
+#def main():
+    # Testing with instance variables
+    #patient1 = Patient("Martin", 25, "male")
+    #print(patient1.show_details())
 
-myLabel1.grid(row=0, column=1)
-myLabel2.grid(row=1, column=1)
+    #doctor1 = MedicalSpecialist("Doc1", 31, "male")
+    #print(doctor1.show_details())
 
-doctorsCheckBtn = Button(root, text="View List of Doctors", padx=50)
-patinetsCheckBtn = Button(root, text="View List of Patients", padx=50)
-infoBtn = Button(root, text="About The App", padx=50)
+    #print("Number of Medical Specialists:", MedicalSpecialist.MEDICAL_SPECIALISTS_COUNT)
+    #print(doctor1.print_info_CSV_Format())
 
-doctorsCheckBtn.grid(row=2, column=1)
-patinetsCheckBtn.grid(row=3, column=1)
-infoBtn.grid(row=4, column=1)
+    #print("Number of Patients:", patient1.PATIENTS_COUNT)
+    #print(patient1.print_info_CSV_Format())
 
-root.mainloop()
+    # Get all info for an instance
+    # print(doctor1.__dict__)
+    # print(MedicalSpecialist.__dict__)
