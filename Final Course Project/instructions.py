@@ -108,6 +108,8 @@ class Visitor(Person):
     for given_instance in MedicalSpecialist.get_instances():
         print(given_instance.print_info_CSV_Format())
 
+    print("\n")
+
     print("Number of Patients:", Patient.PATIENTS_COUNT)
     for instance in Patient.get_instances():
         print(instance.print_info_CSV_Format())
