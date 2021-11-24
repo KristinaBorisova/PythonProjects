@@ -1,0 +1,1 @@
+#This class is supposed to check one of the patient's fields and define the priority based on it
